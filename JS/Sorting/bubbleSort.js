@@ -1,6 +1,16 @@
 /*
 Bubble Sort is a simple sorting algorithm that repeatedly compares adjacent elements in a list and swaps them if 
 they are in the wrong order. This process continues until the list becomes completely sorted.
+
+1) Start with the first element of the array.
+2) Compare it with the next element.
+        If the first element is greater → swap them.
+        Otherwise, leave them as is.
+3) Move to the next pair (2nd and 3rd elements) and repeat the comparison + swap if needed.
+4) Continue until you reach the end of the array.
+        After this first pass, the largest element will be at the last position.
+5) Repeat the process for the remaining unsorted part of the array (ignore the last sorted element).
+6) Keep repeating until no swaps are needed → the array is now sorted.
 */
 
 

@@ -2,10 +2,17 @@
 Selection Sort is one of the simplest sorting algorithms. 
 It works by repeatedly finding the smallest (or largest) element 
 from the unsorted portion of the list and moving it to the correct position in the sorted portion.
+
+1) Start with the first element.
+2) Find the smallest element in the array.
+3) Swap it with the first element.
+4) Move to the next position and repeat for the rest of the array (ignoring already sorted part).
+5) Continue until the array is fully sorted.
+
 */
 
 
-function bubbleSort(arr, callbackFn) {
+function selectionSort(arr, callbackFn) {
     
     function defaultCompare(a, b){
         return parseInt(a) > parseInt(b) ? 1 : a === b ? 0 : -1
@@ -35,7 +42,7 @@ function bubbleSort(arr, callbackFn) {
 }
 
 // var nums = [4, 20, 12, 10, 7, 9];
-// console.log(bubbleSort(nums))
+// console.log(selectionSort(nums))
 
 // var kitties = ["LilBub", "Garfield", "Heathcliff", "Blue", "Grumpy"];
 // function strComp(a, b) {
@@ -43,11 +50,11 @@ function bubbleSort(arr, callbackFn) {
 //   else if (a > b) { return 1;}
 //   return 0;
 // }
-// console.log(bubbleSort(kitties, strComp))
+// console.log(selectionSort(kitties, strComp))
 
 
 // var nums = [4, 3, 5, 3, 43, 232, 4, 34, 232, 32, 4, 35, 34, 23, 2, 453, 546, 75, 67, 4342, 32];
-// console.log(bubbleSort(nums))
+// console.log(selectionSort(nums))
 
 var moarKittyData = [{
   name: "LilBub",
@@ -69,4 +76,4 @@ var moarKittyData = [{
 function oldestToYoungest(a, b) {
   return b.age - a.age;
 }
-console.log(bubbleSort(moarKittyData, oldestToYoungest))
+console.log(selectionSort(moarKittyData, oldestToYoungest))
