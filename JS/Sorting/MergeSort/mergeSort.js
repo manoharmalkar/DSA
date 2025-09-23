@@ -1,4 +1,5 @@
 /*
+UPDATED : 23/09/2025
 Merge Sort is a divide-and-conquer algorithm.
 It splits the array into halves, sorts each half, and then merges the sorted halves back together.
 
@@ -10,7 +11,7 @@ Conquer (Sort Each Half)
     Recursively apply Merge Sort to both halves until you have single-element arrays.
 
 Combine (Merge)
-    Compare elements from both halves and build a sorted array.
+    Compare elements from both halves and build a sorted array. 
 
 */
 
