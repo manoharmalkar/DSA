@@ -153,14 +153,14 @@ singlyLinkedList.push(5).push(10).push(15).push(20).push(25);
 // console.log(singlyLinkedList.head.val); // 25
 // console.log(singlyLinkedList.tail.val); // 20;
 
-console.log(singlyLinkedList.head.val); // 5
-console.log(singlyLinkedList.tail.val); // 25;
-console.log("===============")
-singlyLinkedList.rotate(10000);
-singlyLinkedList.traverse();
-console.log("===============")
-console.log(singlyLinkedList.head.val); // 25
-console.log(singlyLinkedList.tail.val); // 20;
+// console.log(singlyLinkedList.head.val); // 5
+// console.log(singlyLinkedList.tail.val); // 25;
+// console.log("===============")
+// singlyLinkedList.rotate(10000);
+// singlyLinkedList.traverse();
+// console.log("===============")
+// console.log(singlyLinkedList.head.val); // 25
+// console.log(singlyLinkedList.tail.val); // 20;
 
 
 /* EXAMPLE FOR INSERT WITH INDEX */
